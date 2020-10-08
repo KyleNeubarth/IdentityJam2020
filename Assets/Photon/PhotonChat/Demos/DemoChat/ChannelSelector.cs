@@ -16,7 +16,7 @@ public class ChannelSelector : MonoBehaviour, IPointerClickHandler
 
     public void OnPointerClick(PointerEventData eventData)
     {
-      //  ChatNewGui handler = FindObjectOfType<ChatNewGui>(); TODO:
-      //  handler.ShowChannel(this.Channel);
+        ChatGui handler = FindObjectOfType<ChatGui>();
+        handler.ShowChannel(this.Channel);
     }
 }

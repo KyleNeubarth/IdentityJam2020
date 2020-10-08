@@ -6,10 +6,9 @@
 // --------------------------------------------------------------------------------------------------------------------
 
 using UnityEngine;
-using UnityEngine.UI;
 
 #if PHOTON_UNITY_NETWORKING
-
+using UnityEngine.UI;
 using Photon.Pun;
 
 
@@ -25,32 +24,26 @@ public class ChatAppIdCheckerUI : MonoBehaviour
     {
 		if (string.IsNullOrEmpty(PhotonNetwork.PhotonServerSettings.AppSettings.AppIdChat))
         {
-            Description.text = "<Color=Red>WARNING:</Color>\nPlease setup a Chat AppId in the PhotonServerSettings file.";
+            if (Description != null)
+            {
+                Description.text =
+                    "<Color=Red>WARNING:</Color>\nPlease setup a Chat AppId in the PhotonServerSettings file.";
+            }
         }
         else
         {
-            Description.text = string.Empty;
+            if (Description != null)
+            {
+                Description.text = string.Empty;
+            }
         }
     }
 }
 #else
 
-[ExecuteInEditMode]
 public class ChatAppIdCheckerUI : MonoBehaviour
 {
-    public Text Description;
-
-    public void Update()
-    {
-        if (ChatSettings.Instance== null || string.IsNullOrEmpty(ChatSettings.Instance.AppId))
-        {
-            Description.text = "<Color=Red>WARNING:</Color>\nPlease setup a Chat AppId in the ChatSettings file.";
-        }
-        else
-        {
-            Description.text = string.Empty;
-        }
-    }
+    // empty class. if PUN is not present, we currently don't check Chat-AppId "presence".
 }
 
 #endif
