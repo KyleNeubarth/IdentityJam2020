@@ -18,7 +18,7 @@ EditorBuildSettings:
     path: Assets/Scenes/winLoseScene.unity
     guid: 91e021e6c2d0e2e449faf6a594760e4f
   - enabled: 1
-    path: Assets/Scenes/MurderScenes/MurderMainScene.unity
+    path: Assets/Scenes/MurderMainScene.unity
     guid: 2179e25e8ec5add46b9c2874c37d5b16
   - enabled: 1
     path: Assets/Scenes/MurderScenes/MurderBrowserScene.unity
