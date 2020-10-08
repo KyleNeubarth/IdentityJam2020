@@ -4,5 +4,41 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/startScene.unity
+    guid: dc670fbe7abcd394aa328198d3164feb
+  - enabled: 1
+    path: Assets/Scenes/howToPlayScene.unity
+    guid: c47917e1d78597b43a42aa6b3435d1ad
+  - enabled: 1
+    path: Assets/Scenes/joinServerScene.unity
+    guid: cd188e6961eba3d4f9f82a54e060a723
+  - enabled: 1
+    path: Assets/Scenes/winLoseScene.unity
+    guid: 91e021e6c2d0e2e449faf6a594760e4f
+  - enabled: 1
+    path: Assets/Scenes/MurderMainScene.unity
+    guid: 2179e25e8ec5add46b9c2874c37d5b16
+  - enabled: 1
+    path: Assets/Scenes/MurderScenes/MurderBrowserScene.unity
+    guid: 2bf963832f98e634c977ddad041b4c25
+  - enabled: 1
+    path: Assets/Scenes/MurderScenes/MurderMessengerScene.unity
+    guid: 65222ae87e82638419503c1ace0dffe7
+  - enabled: 1
+    path: Assets/Scenes/MurderScenes/MurderTwitterScene.unity
+    guid: f357eef9411142047bf5d9a73cdffce2
+  - enabled: 1
+    path: Assets/Scenes/NormalScenes/NormalMainScene.unity
+    guid: aea882855cd67384ba9eff951f871ee4
+  - enabled: 1
+    path: Assets/Scenes/NormalScenes/NormalBrowserScene.unity
+    guid: 2190c41f28e80494b8ce83adb1e98720
+  - enabled: 1
+    path: Assets/Scenes/NormalScenes/NormalMessengerScene.unity
+    guid: a28c0903bf3bcb647bfd0663f0a87c0d
+  - enabled: 1
+    path: Assets/Scenes/NormalScenes/NormalTwitterScene.unity
+    guid: 647f89f0ca1933e488039956286d2e6e
   m_configObjects: {}

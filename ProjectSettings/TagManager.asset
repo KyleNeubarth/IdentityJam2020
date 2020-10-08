@@ -13,8 +13,8 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
+  - phoneEdge
+  - phoneOverlay
   - 
   - 
   - 
@@ -40,4 +40,13 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: phoneEdge
+    uniqueID: 3687804515
+    locked: 0
+  - name: phoneOverlay
+    uniqueID: 945777297
+    locked: 0
+  - name: UI
+    uniqueID: 2456491049
     locked: 0
