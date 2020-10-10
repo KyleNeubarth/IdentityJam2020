@@ -799,7 +799,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 16341e9c92c807a4fb5f3ba12e36fce5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  chatContent: {fileID: 0}
+  chatContent: {fileID: 2072922368}
   chatMessage: {fileID: 6816613531231311223, guid: 4935b9cef629afe45b02a28fdfc62534, type: 3}
 --- !u!4 &284503482
 Transform:

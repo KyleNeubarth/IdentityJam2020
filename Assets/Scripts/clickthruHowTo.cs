@@ -26,7 +26,6 @@ public class clickthruHowTo : MonoBehaviour
             spriteRenderer.sprite = how_to_play;
 
         button.gameObject.SetActive(false);
-
     }
 
 
@@ -49,8 +48,8 @@ public class clickthruHowTo : MonoBehaviour
         }
         else if (Input.GetMouseButtonDown(0) && frameState == "4")  // if the spriteRenderer sprite = sprite1 then change to sprite2
         {
-            // button.gameObject.SetActive(true);
-            SceneManager.LoadScene("Bearded Man Studios Inc/Scenes/MultiplayerMenu");
+            button.gameObject.SetActive(true);
+            SceneManager.LoadScene("Scenes/connectToServerScene");
         }
 
         //framestates
